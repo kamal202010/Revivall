@@ -6,5 +6,15 @@ package com.khalaf.kamal.revival.service.webApi;
  *
  */
 
-public class ApiInterface {
+import com.khalaf.kamal.revival.service.Employee;
+
+import io.reactivex.Observable;
+import retrofit2.http.GET;
+import retrofit2.http.Url;
+
+public interface ApiInterface {
+
+    @GET("employee/getall")
+    Observable<Employee> fetchData();
+
 }

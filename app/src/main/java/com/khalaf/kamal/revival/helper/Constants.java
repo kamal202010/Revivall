@@ -14,4 +14,5 @@ public class Constants {
     public static final String ENGLISH_CODE = "en";
 
     public static final String Base_url = "http://alsultanh.com/soltan_service/app/";
+    public static final String Base_url_employee = "http://alsultanh.com/soltan_service/app/employee/getall";
 }
