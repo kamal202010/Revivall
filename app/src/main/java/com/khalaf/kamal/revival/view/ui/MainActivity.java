@@ -1,7 +1,9 @@
-package com.khalaf.kamal.revival;
+package com.khalaf.kamal.revival.view.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.khalaf.kamal.revival.R;
 
 public class MainActivity extends AppCompatActivity {
 
