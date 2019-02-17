@@ -47,7 +47,7 @@ public class ItemEmployeeViewModel extends BaseObservable {
     }
 
     public void onItemClick(View view) {
-//        context.startActivity(EmployeeDetailActivityBinding.launchDetail(view.getContext(), people));
+        context.startActivity(EmployeeDetailActivityBinding.launchDetail(view.getContext(), people));
     }
 
     public void setPeople(Employee.EmpsBean people) {

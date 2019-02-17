@@ -17,7 +17,10 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.ui.EmployeeDetailActivityBinding"></activity>
+        <activity
+            android:name=".view.ui.EmployeeDetailActivityBinding"
+            android:parentActivityName=".view.ui.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".view.ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

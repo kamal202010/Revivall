@@ -6,6 +6,7 @@ package com.khalaf.kamal.revival.service;
  *
  */
 
+import java.io.Serializable;
 import java.util.List;
 
 public class Employee {
@@ -35,7 +36,7 @@ public class Employee {
         this.Emps = Emps;
     }
 
-    public static class EmpsBean {
+    public static class EmpsBean implements Serializable {
         /**
          * city_id : 14
          * city_name : جدة

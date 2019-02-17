@@ -33,6 +33,7 @@ public class PeopleDetailViewModel {
     }
 
 
+
     public String getAddress() {
         return people.getCity_name()
                 + " "
